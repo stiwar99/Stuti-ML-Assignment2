@@ -169,14 +169,14 @@ Stuti-ML-Assignment2/
 ## 10. Installation and Setup
 
 ### 10.1 Prerequisites
-Python 3.8 or higher
-pip package manager
+--> Python 3.8 or higher
+--> pip package manager
 
 ### 10.2 SetUp Procedure
 
 1. **Clone the repository**
-git clone https://github.com/stiwar99/Stuti-ML-Assignment2.git
-cd Stuti-ML-Assignment2
+--> git clone https://github.com/stiwar99/Stuti-ML-Assignment2.git
+--> cd Stuti-ML-Assignment2
 
 2. **Install dependencies**
 pip install -r requirements.txt
@@ -217,20 +217,20 @@ The application is deployed using Streamlit Community Cloud, enabling scalable p
    git push origin main
 
 2. **Go to Streamlit Cloud**
-    Visit: https://streamlit.io/cloud
-    Sign in with your GitHub account
+    --> Visit: https://streamlit.io/cloud
+    --> Sign in with your GitHub account
 
 3. **Create New App**
-   Click "New App" button
-   Select repository: `stiwar99/Stuti-ML-Assignment2`
-   Choose branch: `main`
-   Main file path: `app.py`
-   Click "Deploy"
+   --> Click "New App" button
+   --> Select repository: `stiwar99/Stuti-ML-Assignment2`
+   --> Choose branch: `main`
+   --> Main file path: `app.py`
+   --> Click "Deploy"
 
 4. **Wait for Deployment**
-   Deployment takes 2-5 minutes
-   Monitor the deployment logs
-   Your application live at: ``
+   --> Deployment takes 2-5 minutes
+   --> Monitor the deployment logs
+   --> Your application live at: ``
 
 
 ## 13. Evaluation Metrics
@@ -238,27 +238,27 @@ The application is deployed using Streamlit Community Cloud, enabling scalable p
 Model performance is assessed through a comprehensive set of evaluation criteria. Overall predictive correctness is quantified using accuracy, while discriminatory capability across classes is measured via the area under the receiver operating characteristic curve, implemented in a one-vs-rest configuration for multi-class scenarios. Precision captures the proportion of correctly identified positive predictions relative to all predicted positives, whereas recall reflects the proportion of correctly identified positives among all true positives. The F1 score provides a harmonic balance between precision and recall. We prioritized the F1 score to ensure a balance between missing a poisonous mushroom and wrongly labeling an edible one and the Matthews Correlation Coefficient offers a robust, class-balanced performance indicator suitable for multi-class classification tasks.
 
 ## 14. Technical Stack
-Python
-Streamlit
-Scikit-learn
-XGBoost
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Joblib
+--> Python
+--> Streamlit
+--> Scikit-learn
+--> XGBoost
+--> Pandas
+--> NumPy
+--> Matplotlib
+--> Seaborn
+--> Joblib
 
 ## 15. Author Information
-Stuti Tiwari
-Registration Number: 2025AA05728
-BITS Pilani
-Machine Learning Assignment – 2
+--> Stuti Tiwari
+--> Registration Number: 2025AA05728
+--> BITS Pilani Mtech- AI/ML
+--> Machine Learning Assignment – 2
 
 ## 16. Policy
 This repository is intended exclusively for academic evaluation and instructional purposes for ML Assignment 2. Unauthorized commercial utilization is prohibited.
 
 ## 17. Acknowledgments
-UCI Machine Learning Repository
-Kaggle Datasets
-BITS Pilani Faculty
-Course Instruction Team
+--> UCI Machine Learning Repository
+--> Kaggle Datasets
+--> BITS Pilani Faculty
+--> Course Instruction Team
