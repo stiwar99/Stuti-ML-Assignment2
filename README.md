@@ -230,7 +230,7 @@ The application is deployed using Streamlit Community Cloud, enabling scalable p
 4. **Wait for Deployment**
    --> Deployment takes 2-5 minutes
    --> Monitor the deployment logs
-   --> Your application live at: ``
+   --> Your application live at: `https://stutitiwari99-ml-assignment2.streamlit.app`
 
 
 ## 13. Evaluation Metrics
