@@ -80,6 +80,9 @@ def evaluate_model(true_labels, predictions, probabilities):
 
 print("\n========== MUSHROOM CLASSIFICATION PIPELINE ==========\n")
 
+# Dataset: Kaggle Mushroom Classification Dataset
+# Source: https://www.kaggle.com/datasets/uciml/mushroom-classification
+
 data = load_dataset("mushrooms.csv")
 
 # Check for missing values
@@ -121,6 +124,7 @@ model_registry = {
 }
 
 # Directory for model pkl
+
 os.makedirs("model", exist_ok=True)
 
 performance_summary = []
